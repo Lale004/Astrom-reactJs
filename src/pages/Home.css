@@ -167,3 +167,75 @@ a {
   line-height: 20px;
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+    letter-spacing: 15px;
+  }
+  .top-title img {
+    width: 80px;
+    height: 60px;
+  }
+  .moon-img img {
+    top: -100px;
+  }
+  .planets-title {
+    font-size: 20px;
+  }
+  .planets-title p:nth-of-type(2) {
+    font-size: 2.5rem;
+  }
+  .planets-title p:nth-of-type(3) {
+    font-size: 16px;
+  }
+  .planets img {
+    width: 300px;
+  }
+  .planet {
+    height: 300px;
+  }
+  .planet-text h1 {
+    font-size: 25px;
+  }
+  .planet-text p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .top-title img {
+    width: 60px;
+    height: 50px;
+  }
+  .moon-img img {
+    top: -50px;
+  }
+  .planets-title {
+    font-size: 18px;
+  }
+  .planets-title p:nth-of-type(2) {
+    font-size: 2rem;
+  }
+  .planets-title p:nth-of-type(3) {
+    font-size: 14px;
+  }
+  .planets img {
+    width: 250px;
+  }
+  .planet {
+    height: 250px;
+  }
+  .planet-text h1 {
+    font-size: 20px;
+  }
+  .planet-text p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

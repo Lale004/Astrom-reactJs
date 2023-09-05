@@ -35,7 +35,7 @@
   height: 430px;
 }
 .favorit-box:hover {
-  transform: scale(0.90);
+  transform: scale(0.9);
   box-shadow: -1px 6px 32px -4px rgba(183, 175, 175, 0.73);
 }
 
@@ -125,4 +125,18 @@
 }
 .fovorite-btn.clicked {
   background-color: rgb(255, 255, 255); /* Change this to the color you want */
+}
+@media screen and (max-width: 768px) {
+  .favorite {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .favorite-text h1 {
+    font-size: 20px;
+  }
+
+  .no-favorit h1 {
+    font-size: 24px;
+  }
 }

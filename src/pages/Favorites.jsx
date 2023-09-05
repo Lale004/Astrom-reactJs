@@ -44,7 +44,7 @@ function Favorites({ products, favorites, basket, dispatch }) {
                   </div>
                   <div className="favorite-text">
                     <h1>{blog.title}</h1>
-                    <Link  to={`/blog/${blog.id}`}>Read more ..</Link>
+                    <Link to={`/blog/${blog.id}`}>Read more ..</Link>
                   </div>
                 </div>
               );
