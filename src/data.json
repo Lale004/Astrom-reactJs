@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Perseid meteor shower",
+        "description1": "This Perseid shower is caused by the Earth passing through debris that is just bits of ice and rock. These bits were left behind by Comet Swift-Tuttle, which last passed close to Earth in 1992. The peak of the Perseids takes place on Earth when the planet passes through the densest and dustiest area on August 11 and 12.NASA says that this time around, on average, you can expect to see up to 100 meteors per hour during the Perseids peak.",
+        "description2":"The Perseid meteor shower will be observed in Baku throughout the night. The meteor shower is expected to reach maximum activity around noon on August 13, so the best views from Azerbaijan can be seen before dawn and after sunset on that day.",
+        "image":"https://static.scientificamerican.com/sciam/cache/file/319B2B7B-7BBA-4011-B3650D06DB16D632_source.jpg?w=590&h=800&D5378229-804E-442C-93950851F9CB399C",
+        "date":"02 July"
+    },
+    {
+      "id": 2,
+      "title": "The Antennae Galaxies",
+      "description1": "This new NASA Hubble Space Telescope image of the Antennae galaxies is the sharpest yet of this merging pair of galaxies. During the course of the collision, billions of stars will be formed. The brightest and most compact of these star birth regions are called super star clusters.The two spiral galaxies started to interact a few hundred million years ago, making the Antennae galaxies one of the nearest and youngest examples of a pair of colliding galaxies. Nearly half of the faint objects in the Antennae image are young clusters containing tens of thousands of stars. The orange blobs to the left and right of image center are the two cores of the original galaxies and consist mainly of old stars criss-crossed by filaments of dust, which appears brown in the image. The two galaxies are dotted with brilliant blue star-forming regions surrounded by glowing hydrogen gas, appearing in the image in pink.",
+      "description2":"The new image allows astronomers to better distinguish between the stars and super star clusters created in the collision of two spiral galaxies. By age dating the clusters in the image, astronomers find that only about 10 percent of the newly formed super star clusters in the Antennae will survive beyond the first 10 million years. The vast majority of the super star clusters formed during this interaction will disperse, with the individual stars becoming part of the smooth background of the galaxy. It is however believed that about a hundred of the most massive clusters will survive to form regular globular clusters, similar to the globular clusters found in our own Milky Way galaxy.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Antennae_Galaxies_-_NGC_4038-NGC_4039_-_Flickr_-_Kevin_M._Gill.jpg/2068px-Antennae_Galaxies_-_NGC_4038-NGC_4039_-_Flickr_-_Kevin_M._Gill.jpg",
+      "date":"26 June"
+  },
+  {
+    "id": 3,
+    "title": "Largest Crater on the Moon",
+    "description1": "The Aitken basin, located on the dark side of our Earth's satellite Moon, is the largest crater on the Moon with a depth of 13 kilometers and a diameter of 2,500 kilometers. However, it is still not clear what the factor that created the huge crater was.",
+    "description2":"Billions of years ago, something hit the dark side of our moon, the Moon, creating a huge hole. This huge hole has a diameter of 2,500 kilometers and a depth of 13 kilometers. Besides, the hole is named as 'South Pole-Aitken basin (South Pole-Aitken basin)'. This crater is the oldest and deepest of the craters on the Moon, and one of the largest in the Solar System.",
+    "image":"https://bilimgenc.tubitak.gov.tr/sites/default/files/styles/bp-770px-custom_user_desktop_1x/public/moon_0.jpg?itok=2SGv8nNh",
+    "date":"22 June"
+},
+{
+  "id": 4,
+  "title": "What Is a Nebula?",
+  "description1": "A nebula is a giant cloud of dust and gas in space. Some nebulae (more than one nebula) come from the gas and dust thrown out by the explosion of a dying star, such as a supernova. Other nebulae are regions where new stars are beginning to form.Nebulae are made of dust and gases—mostly hydrogen and helium. The dust and gases in a nebula are very spread out, but gravity can slowly begin to pull together clumps of dust and gas. As these clumps get bigger and bigger, their gravity gets stronger and stronger.",
+  "description2":"Nebulae exist in the space between the stars—also known as interstellar space. The closest known nebula to Earth is called the Helix Nebula. It is the remnant of a dying star—possibly one like the Sun. It is approximately 700 light-years away from Earth. That means even if you could travel at the speed of light, it would still take you 700 years to get there!",
+  "image":"https://www.collinsdictionary.com/images/full/nebula_455426389.jpg",
+  "date":"08 April"
+},
+{
+  "id": 5,
+  "title": "Largest known galaxy",
+  "description1": "Scientists announced the discovery of the largest galaxy ever observed. It was stated that the radio galaxy type galaxy is 100 times larger than the Milky Way Galaxy, where our planet Earth is located. It takes 16 million light years to travel from one end of the galaxy called Alcyoneus to the other. The discovery of Alcyoneus, which is three billion light years away from Earth, was by chance. The space occupied by Alcyoneus in infinite space is 5 megaparsecs.",
+  "description2":"Scientists cannot yet explain why Alcyoneus has grown so much. It is believed that the discovery made will help us better understand the universe. In addition, scientists think that Alcyoneus will provide a better understanding of the cosmic web. It is thought that galaxies with huge gaps between them in the universe have a cosmic web. Data obtained from about 20 thousand radio antennas were examined by researchers at the Leiden Observatory in the Netherlands. Astronomers have detected two massive plasma streams. These currents, which were calculated to move at nearly the speed of light, left a trace that could be detected by radio antennas.",
+  "image":"https://www.indyturk.com/sites/default/files/styles/1368x911/public/article/main_image/2021/10/09/771971-2055602399.jpg?itok=zywHRGn3",
+  "date":"17 March"
+},
+{
+  "id": 6,
+  "title": "What Happens If We Fall Into Space?",
+  "description1": "Stuffiness is the first thing you'll encounter when you're left unprotected in space. Do not be afraid, you will not lose consciousness instantly. You will have at least 15 seconds as your body will use the remaining oxygen reserves in your blood circulation system. You can even survive for up to two minutes without taking any permanent damage if you don't hold your breath. What if you hold your breath? The lack of external pressure will expand the air inside your lungs. This, in turn, will break up your lungs and release the air inside into the circulatory system. So, if you ever find yourself in deep space, the first thing to do is to exhale.",
+  "description2":"Of course, there are other situations where you are not in control. After 10 seconds, your skin and underlying tissues will begin to swell, as the water inside your body will evaporate in the absence of atmospheric pressure. But you don't inflate like a balloon and reach the bursting point, because human skin has the power to prevent it. If you are brought back to atmospheric pressure, your skin and tissues will return to their original state.",
+  "image":"https://beyinsizler.net/wp-content/uploads/2017/07/uzay-boslugunda-insan-vucuduna-ne-olur2.jpg",
+  "date":"03 March"
+}
+
+]

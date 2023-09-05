@@ -1,0 +1,178 @@
+.blog-section-1 {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-section-1 .text {
+  width: 50%;
+}
+.blog-section-1 .moon-img {
+  width: 50%;
+}
+.blog-section-1 .moon-img img {
+  width: 100%;
+}
+.blog-section-1 .text {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.blog-section-1 .text h1 {
+  letter-spacing: 16px;
+  font-size: 70px;
+  font-weight: 100;
+}
+.blog-section-1 .text p {
+  width: 500px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.nav-home-blog {
+  display: flex;
+  gap: 20px;
+}
+.nav-home-blog a {
+  font-size: 20px;
+}
+.section2-blog {
+  margin-top: 450px;
+
+  color: white;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section2-blog p {
+  font-size: 20px;
+}
+.section2-blog h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+.blogs {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.blog {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.blog .blog-img {
+  position: relative;
+  width: 100%;
+  height: 280px;
+}
+.blog .blog-img img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-img span {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 50%;
+  width: 55px;
+  height: 58px;
+  transform: translate(-20%, -70%);
+  background-color: white;
+  position: absolute;
+}
+.blog-img .overlay {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.heart_icon_products {
+  position: absolute;
+  z-index: 6;
+  top: 10px;
+  left: 10px;
+  background-color: #fff;
+  color: #ff5b5b;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  box-shadow: 2px 1px 27px -2px rgba(255, 255, 255, 0.55);
+  -webkit-box-shadow: 2px 1px 27px -2px rgba(255, 255, 255, 0.55);
+  -moz-box-shadow: 2px 1px 27px -2px rgba(255, 255, 255, 0.55);
+}
+
+.blog-text {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 25px;
+}
+.blog-text h1 {
+  font-size: 32px;
+}
+.blog-text a p {
+  cursor: pointer;
+  font-weight: bolder;
+}
+.blog-detail-1 {
+  color: white;
+}
+.blog-detail-2 {
+  color: white;
+}
+.blog-title {
+  padding-top: 50px;
+}
+.blog-title h1 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+.blog-detail-1 p,
+.blog-detail-2 p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  margin: 20px;
+  line-height: 20px;
+}
+.detail-img {
+  margin: 0 auto;
+  width: 90%;
+  height: 500px;
+}
+.detail-img img {
+  width: 100%;
+  height: 100%;
+}

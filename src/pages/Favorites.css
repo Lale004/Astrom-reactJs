@@ -1,0 +1,128 @@
+.back {
+  background-color: black;
+  height: max-content;
+}
+.favorite {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 150px;
+  padding: 40px 0;
+  padding-bottom: 200px;
+}
+
+.fovorite-img img {
+  width: 100%;
+  height: 300px;
+}
+.fovorite-img {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+.favorit-box {
+  box-shadow: -1px 3px 32px -4px rgba(183, 175, 175, 0.53);
+  -webkit-box-shadow: -1px 3px 32px -4px rgba(183, 175, 175, 0.53);
+  -moz-box-shadow: -1px 3px 32px -4px rgba(183, 175, 175, 0.53);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  transition: 1s;
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 20px;
+  height: 430px;
+}
+.favorit-box:hover {
+  transform: scale(0.90);
+  box-shadow: -1px 6px 32px -4px rgba(183, 175, 175, 0.73);
+}
+
+.fovorite-img span {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #3a5041;
+  border: 1px solid #3a5041;
+}
+.favorite-text {
+  padding: 0 10px;
+  width: 100%;
+}
+.favorite-text h1 {
+  text-align: center;
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 200px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.favorite-text a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+.no-favorit {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  gap: 20px;
+  height: 90vh;
+  align-items: center;
+}
+.no-favorit h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.no-favorit p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 26px;
+  margin-top: -10px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.no-favorit img {
+  border-radius: 50%;
+  width: 250px;
+
+  height: 250px;
+}
+.no-favorit button {
+  background-color: #ffffff;
+  font-family: Outfit;
+  font-weight: 500;
+  color: #000000;
+  padding: 14px 40px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  transition: all 0.8s ease;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.no-favorit button:hover {
+  border: 2px solid white;
+  background-color: #000000;
+  color: #ffffff;
+}
+.fovorite-btn.clicked {
+  background-color: rgb(255, 255, 255); /* Change this to the color you want */
+}
