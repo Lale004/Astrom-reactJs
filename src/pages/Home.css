@@ -106,7 +106,6 @@ a {
 }
 .planets-title p:nth-of-type(3) {
   font-size: 18px;
-  width: 800px;
   margin: 0 auto;
 }
 .planets img {
@@ -173,18 +172,35 @@ a {
     font-size: 30px;
     letter-spacing: 15px;
   }
+  .top-title h1{
+    font-size: 30px;
+  }
+  .bottom-title h1{
+    font-size: 35px;
+  }
   .top-title img {
     width: 80px;
     height: 60px;
   }
-  .moon-img img {
-    top: -100px;
-  }
+.moon-img {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.moon-img img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div{
+  margin-top: 280px;
+}
+ 
   .planets-title {
     font-size: 20px;
   }
   .planets-title p:nth-of-type(2) {
-    font-size: 2.5rem;
+    font-size: 30px;
+    line-height: 35px;
   }
   .planets-title p:nth-of-type(3) {
     font-size: 16px;
@@ -202,6 +218,11 @@ a {
     font-size: 16px;
     line-height: 18px;
   }
+  .planets-img{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -229,7 +250,7 @@ a {
     width: 250px;
   }
   .planet {
-    height: 250px;
+    height:400px;
   }
   .planet-text h1 {
     font-size: 20px;
@@ -237,5 +258,15 @@ a {
   .planet-text p {
     font-size: 14px;
     line-height: 16px;
+  }
+  .planets-img .planet .planet-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .planets-img .planet .planet-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

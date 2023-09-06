@@ -10,6 +10,7 @@
 }
 .blog-section-1 .moon-img {
   width: 50%;
+  
 }
 .blog-section-1 .moon-img img {
   width: 100%;
@@ -27,7 +28,7 @@
   font-weight: 100;
 }
 .blog-section-1 .text p {
-  width: 500px;
+  width: 100%;
   font-size: 25px;
   font-weight: bolder;
 }
@@ -189,7 +190,13 @@
 
   .blog-section-1 .moon-img {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-left: 65px;
+
+  }
+  .blog-section-1 .moon-img img{
+    display: flex;
+    justify-content: center;
   }
 
   .nav-home-blog {
