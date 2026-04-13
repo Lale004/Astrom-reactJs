@@ -29,7 +29,7 @@ function Home() {
               <h1>RE</h1>
             </div>
             <div className="bottom-title">
-              <h1>ASTRONOMY</h1>
+              <h1>ASTRONOMY PIPELINE TEST</h1>
             </div>
           </div>
           <div className="moon-img">
