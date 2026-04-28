@@ -18,9 +18,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run lint (kod keyfiyyəti)
-         run: npm run lint || true
-
       - name: Run tests (testlər)
         run: npm test
 
