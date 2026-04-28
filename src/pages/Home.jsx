@@ -21,7 +21,7 @@ function Home() {
         <div className="section1">
           <div className="title ">
             <div className="top-title">
-              <h1>EXPL</h1>
+              <h1>Cİ/CD</h1>
               <img
                 src="https://kitpro.site/astron/wp-content/uploads/sites/146/2023/02/solar-eclipse-2022-11-16-16-41-01-utc-copy.jpg"
                 alt=""
